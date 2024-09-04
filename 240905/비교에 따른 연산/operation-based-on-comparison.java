@@ -11,7 +11,7 @@ public class Main {
             int temp = a * b;
             System.out.println(temp);
         }else{
-            int temp = a / b;
+            int temp = a % b;
             System.out.println(temp);
         }
     }
