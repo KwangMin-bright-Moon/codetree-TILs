@@ -8,9 +8,11 @@ public class Main {
         int b = sc.nextInt();
 
         if(a > b){
-            System.out.println(a*b);
+            int temp = a * b;
+            System.out.println(temp);
         }else{
-            System.out.println(a/b);
+            int temp = a / b;
+            System.out.println(temp);
         }
     }
 }
