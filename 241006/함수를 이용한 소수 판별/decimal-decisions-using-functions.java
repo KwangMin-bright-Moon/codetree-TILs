@@ -10,8 +10,6 @@ public class Main {
         int sum = 0;
 
         for(int i = a; i <= b; i++){
-            System.out.println("i = " + i);
-            System.out.println("isPrime(i) = " + isPrime(i) );
             if(isPrime(i)){
                 sum+= i;
             }
