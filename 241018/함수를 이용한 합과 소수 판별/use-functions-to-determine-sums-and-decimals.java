@@ -32,7 +32,7 @@ public class Main {
         }
 
         for(int i = 3; i < Math.sqrt(num); i += 2){
-            if(num % 3 == 0){
+            if(num % i == 0){
                 return false;
             }
         }
